@@ -31,11 +31,11 @@
 
     <TextView
         android:id="@+id/userName"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Large Text"
         android:autoText="false"
         android:clickable="false"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
