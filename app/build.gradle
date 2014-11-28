@@ -2,6 +2,12 @@ apply plugin: 'com.android.application'
 
 android {
     signingConfigs {
+        config {
+            keyAlias 'Walk_meter'
+            keyPassword 'nagatoyuki'
+            storeFile file('C:/Users/yuki/AndroidStudioProjects/Walk_meter/Walk meter.jks')
+            storePassword 'nagatoyuki'
+        }
     }
     compileSdkVersion 19
     buildToolsVersion "21.1.1"
@@ -16,6 +22,7 @@ android {
         release {
             runProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
         }
     }
 }

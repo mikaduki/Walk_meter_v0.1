@@ -36,4 +36,14 @@ public class MainActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void push_facebook_button_onClick(){
+
+    }
+
+    public void Update_button_onClick(){
+
+    }
+
+
 }
